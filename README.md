@@ -12,20 +12,20 @@
 
 ## Uses case
 
-● The user should be able to search by keyword for images
-● Images should be shown in a grid with consistent width and height images, without
+- The user should be able to search by keyword for images<br />
+- Images should be shown in a grid with consistent width and height images, without<br />
 stretching the images (cropping is ok, so long as the image fills the grid space), with a
-default maximum of 8 images shown per search
-● The user should be able to add and remove a tag from images to mark or unmark
-them as a favourite image
-● Different app states should ideally be accounted for with UI feedback to the user, e.g.
-errors, loading, etc
+default maximum of 8 images shown per search<br />
+- The user should be able to add and remove a tag from images to mark or unmark
+them as a favourite image<br />
+- Different app states should ideally be accounted for with UI feedback to the user, e.g.
+errors, loading, etc<br />
 The client also had a few other features in mind, but considered these as secondary and only
-required if we’re able to fulfil the above requirements:
-● Add a “Fetch More” button displayed below the results that will fetch the next 8
-image results for the current search
-● A dedicated page that the user can go to to view their tagged favourite images at
-any time
+required if we’re able to fulfil the above requirements:<br />
+- Add a “Fetch More” button displayed below the results that will fetch the next 8
+image results for the current search<br />
+- A dedicated page that the user can go to to view their tagged favourite images at
+any time<br />
 
 
 ## IE11 Testing fot Layout
