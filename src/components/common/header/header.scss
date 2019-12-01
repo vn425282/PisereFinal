@@ -1,0 +1,41 @@
+.header {
+    display: flex;
+    font-size: 16px;
+    line-height: 23px;
+    padding: 18px 9px 9px;
+    border-bottom: 1px solid #e7e7e7;
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    &_link {
+        display: inline-block;
+        margin: 0 9px;
+        text-align: center;
+        &-search {
+            width: 53px;
+        }
+        &-favorites {
+            width: 71px;
+        }
+        @at-root {
+            a#{&} {
+                color: #8c8c8c;
+                &-active {
+                    color: #555;
+                    text-decoration: none;
+                    font-weight: 600;
+                    cursor: default;
+                }
+            }
+        }
+        &-bold {
+            font-weight: 600;
+            color: #555;
+        }
+    }
+    &_separator {
+        display: inline-block;
+        margin: 0 9px;
+        height: 23px;
+        border-left: 1px solid #c8c8c8;
+    }
+}

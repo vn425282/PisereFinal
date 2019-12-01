@@ -1,0 +1,94 @@
+.search {
+    padding: 25px 70px;
+    &_input {
+        width: 100%;
+        .MuiInputBase-input {
+            font-size: 26px;
+            line-height: 26px;
+            height: 26px;
+            padding: 10px 0;
+            &::placeholder {
+                font-weight: 200;
+            }
+        }
+    }
+}
+
+.images {
+    &_list {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px 15px 0;
+    }
+    &_container {
+        position: relative;
+        cursor: pointer;
+        width: 25%;
+        &-skeleton {
+            pointer-events: none;
+            ;
+        }
+        &:before {
+            content: "";
+            position: absolute;
+            background-image: url(../../../assets/images/heart.svg);
+            background-size: contain;
+            width: 20px;
+            height: 20px;
+            width: 40px;
+            height: 40px;
+            bottom: 25px;
+            right: 15px;
+            transition: opacity 200ms;
+            opacity: 0;
+        }
+        &:hover {
+            &:before {
+                opacity: 0.5;
+            }
+        }
+        &-favorite {
+            &:before {
+                opacity: 1;
+            }
+        }
+    }
+    &_image {
+        display: block;
+        width: calc(100% - 20px);
+        margin: 0 auto 20px;
+        height: 16.53vw;
+        max-height: 164px;
+        object-fit: cover;
+        background-color: #EDEEF1;
+    }
+}
+
+.fetchmore {
+    text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+    .search {
+        padding: 25px 16px;
+    }
+    .images {
+        &_container {
+            width: 50%;
+        }
+        &_image {
+            height: 35.46vw;
+            max-height: 272px;
+        }
+    }
+}
+
+@media only screen and (max-width: 359px) {
+    .search {
+        &_input {
+            .MuiInputBase-input {
+                font-size: 24px;
+            }
+        }
+    }
+}
