@@ -3,8 +3,6 @@
 【Assignment】 Front Web Developer (Mr. Tri Nguyen)
 * This project using React, Redux for State Management
 
-![Alt text](https://i.ibb.co/y5yFrc9/Screen-Shot-2019-08-26-at-11-26-40-PM.png?raw=true "Title")
-
 ## Install Library
 
 ```
