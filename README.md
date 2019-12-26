@@ -1,6 +1,5 @@
-# Web Frontend - Take Home Test
+# Web Frontend
 
-【Assignment】 Front Web Developer (Mr. Tri Nguyen)
 * This project using React, Redux for State Management
 
 ## Install Library
